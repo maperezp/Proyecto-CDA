@@ -45,3 +45,10 @@
   - Consolidar un modelo predictivo interpretativo
   - Estandarizar los procesos de captura y limpieza de datos
   - Integrar resultados en un tablero dinámico de seguimiento clínico
+
+### **Instrucciones de ejecución**
+
+
+
+Los datos usados durante todo el desarrollo del proyecto (información clínica de los pacientes sometidos a trasplante hepático en la Fundación Santa Fe de Bogotá) fueron prestados a los miembros del equipo bajo un contrato de confidencialidad. Debido a esto, no es posible compartir los archivos mencionados en los documentos de desarrollo.
+En caso de requerir acceso a los datos originales o ejecutar alguno de los notebooks desarrollados durante el proyecto, será necesario contactar directamente al equipo responsable del proyecto para solicitar la autorización correspondiente y coordinar el acceso bajo las políticas de confidencialidad establecidas por la institución. 
