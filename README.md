@@ -46,9 +46,21 @@
   - Estandarizar los procesos de captura y limpieza de datos
   - Integrar resultados en un tablero dinámico de seguimiento clínico
 
+### **Estructura del repositorio**
+
+- docs/: Contiene toda la documentación relacionada con el desarrollo del proyecto, incluyendo reportes, esquemas, mockups y material de soporte.
+
+- src/: Carpeta destinada al código fuente del proyecto. En este caso, incluye el notebook principal proyecto_E1_Final.ipynb, donde se documenta el flujo completo de análisis y modelado de datos.
+
 ### **Instrucciones de ejecución**
 
+El código desarrollado para este proyecto se encuentra en la carpeta src, específicamente en el archivo src/proyecto_E1_Final.ipynb.
+Este notebook contiene todo el proceso de análisis y tratamiento de datos.
+Se deben contar con las siguientes librerías
 
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
 Los datos usados durante todo el desarrollo del proyecto (información clínica de los pacientes sometidos a trasplante hepático en la Fundación Santa Fe de Bogotá) fueron prestados a los miembros del equipo bajo un contrato de confidencialidad. Debido a esto, no es posible compartir los archivos mencionados en los documentos de desarrollo.
 En caso de requerir acceso a los datos originales o ejecutar alguno de los notebooks desarrollados durante el proyecto, será necesario contactar directamente al equipo responsable del proyecto para solicitar la autorización correspondiente y coordinar el acceso bajo las políticas de confidencialidad establecidas por la institución. 
