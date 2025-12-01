@@ -33,21 +33,6 @@
   - **Objetivo**: apoyar la toma de decisiones estratégicas y el seguimiento clínico.
   - **Link**: https://app.powerbi.com/links/2LfQ-6HclV?ctid=fabd047c-ff48-492a-8bbb-8f98b9fb9cca&pbi_source=linkShare
 
-### **Conclusiones e Insights Iniciales**
-
-1. **Problemas de calidad de datos**: El registro actual en Excel compartido genera inconsistencias, duplicidad y ausencia de validación, limitando la confiabilidad del análisis.
-
-2. **Necesidad de digitalización**: Es esencial implementar herramientas de captura estructurada (PowerApps) y flujos ETL automatizados.
-
-3. **Hallazgos preliminares**
-  - Los pacientes con mayor tiempo quirúrgico o infección previa presentan mayor probabilidad de complicaciones postrasplante.
-  - Comorbilidades como diabetes mellitus y tabaquismo incrementan la tasa de infecciones.
-  - Se identifican grupos clínicos diferenciados que podrían beneficiarse de protocolos personalizados de seguimiento.
-
-4. **Acciones futuras**
-  - Consolidar un modelo predictivo interpretativo
-  - Estandarizar los procesos de captura y limpieza de datos
-  - Integrar resultados en un tablero dinámico de seguimiento clínico
 
 ### **Estructura del repositorio**
 
