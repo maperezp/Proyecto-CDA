@@ -19,6 +19,8 @@
   - Aplicación digital para capturar información de pacientes trasplantados con validaciones de campos, reglas de consistencia y control de acceso por rol.
   - **Usuarios**: personal médico y administrativo.
   - **Objetivo**: mejorar la calidad y trazabilidad de los registros clínicos.
+  - Link a la aplicación Power Apps:
+  - https://apps.powerapps.com/play/e/default-fabd047c-ff48-492a-8bbb-8f98b9fb9cca/a/5a83b0b6-6181-41dc-a420-82b385035a78?tenantId=fabd047c-ff48-492a-8bbb-8f98b9fb9cca&hint=0dd304d1-14b7-4047-8ae7-d856a5476343&sourcetime=1764545493671&source=portal#
   
 2. **Modelo de Machine Learning**
   - Algoritmo predictivo que clasifica pacientes según su riesgo de infección postrasplante hepático.
@@ -49,8 +51,8 @@
 ### **Estructura del repositorio**
 
 - docs/: Contiene toda la documentación relacionada con el desarrollo del proyecto, incluyendo reportes, esquemas, mockups y material de soporte.
-
 - src/: Carpeta destinada al código fuente del proyecto. En este caso, incluye el notebook principal proyecto_E1_Final.ipynb, donde se documenta el flujo completo de análisis y modelado de datos.
+- models/: Carpeta destinada a guardar los modelos desarrollados (pickle) para su ejecución.
 
 ### **Instrucciones de ejecución**
 
@@ -61,6 +63,15 @@ Se deben contar con las siguientes librerías
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
-
 Los datos usados durante todo el desarrollo del proyecto (información clínica de los pacientes sometidos a trasplante hepático en la Fundación Santa Fe de Bogotá) fueron prestados a los miembros del equipo bajo un contrato de confidencialidad. Debido a esto, no es posible compartir los archivos mencionados en los documentos de desarrollo.
+Link al repositorio privado de los datos:
+https://github.com/Daniagui12/Proyecto-CDA-Private
+
+El orden de ejecución de los notebookes es el siguiente:
+1. 01_EDA
+2. 02_generación_diccionario_de_datos
+3. 03_nuevo_modelado_de_datos
+4. 04_Clustering
+5. 05_ClasificaciónInfecciónPostTx
+
 En caso de requerir acceso a los datos originales o ejecutar alguno de los notebooks desarrollados durante el proyecto, será necesario contactar directamente al equipo responsable del proyecto para solicitar la autorización correspondiente y coordinar el acceso bajo las políticas de confidencialidad establecidas por la institución. 
