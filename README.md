@@ -60,4 +60,15 @@ El orden de ejecución de los notebookes es el siguiente:
 4. 04_Clustering
 5. 05_ClasificaciónInfecciónPostTx
 
-En caso de requerir acceso a los datos originales o ejecutar alguno de los notebooks desarrollados durante el proyecto, será necesario contactar directamente al equipo responsable del proyecto para solicitar la autorización correspondiente y coordinar el acceso bajo las políticas de confidencialidad establecidas por la institución. 
+En caso de requerir acceso a los datos originales o ejecutar alguno de los notebooks desarrollados durante el proyecto, será necesario contactar directamente al equipo responsable del proyecto para solicitar la autorización correspondiente y coordinar el acceso bajo las políticas de confidencialidad establecidas por la institución.
+
+
+
+### **Conclusiones finales**
+Del trabajo realizado podemos concluir que se entregaron tres productos de datos que ayudarán a la Fundación Santa Fe a mejorar el ciclo de vida de la información de los pacientes que requieren trasplante.
+En primer lugar, el paso de un archivo de Excel sin controles a un esquema de gestión estructurado permitió reducir de forma notable errores de registro, valores nulos, duplicados e inconsistencias. Esto hizo que la base de datos fuera más confiable para el análisis y el modelamiento. Además, las reglas incorporadas en la aplicación para ingresar, actualizar y borrar registros evitan que reaparezcan los problemas de calidad asociados a la edición manual del Excel.
+En segundo lugar, gracias a la implementación del dashboard, la Fundación cuenta ahora con una herramienta que permite analizar y tomar decisiones que pueden impactar directamente la vida de los pacientes: identificar características de los casos de fatalidad, conocer la cantidad de días promedio en UCI y explorar otras variables que contribuyen a mejorar la calidad del servicio.
+De esta forma, se considera que los objetivos del proyecto se cumplieron, ya que estas herramientas fortalecen el ciclo de vida de los datos y aumentan su valor, dejando atrás la visión de un simple registro en Excel.
+La principal dificultad encontrada fue la calidad de los datos y la ausencia de un diccionario de datos claro. Como se ha mencionado, la información se registraba manualmente en Excel por cada cirujano, quien definía sus propias columnas, lo que hacía extremadamente complejo cualquier esfuerzo de limpieza, análisis o construcción de modelos de machine learning.
+Para mejorar las condiciones y obtener mejores resultados, es fundamental que la Fundación adopte de manera consistente la aplicación desarrollada, de modo que pueda construir una base de datos más estandarizada y limpia. Sin embargo, consideramos también que puede existir un sesgo importante debido a la limitada accesibilidad de la Fundación para pacientes de bajos recursos, lo que podría afectar los resultados. 
+Por último, es necesario aclarar que los modelos obtenidos se vieron fuertemente condicionados por la calidad de los datos. Una vez se utilice la aplicación y se consolide una base más estandarizada, será posible retomar el proyecto y reentrenar o construir nuevos modelos de machine learning para mejorar sus métricas. 
