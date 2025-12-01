@@ -31,6 +31,7 @@
   - Visualización interactiva de indicadores clínicos clave (KPIs) tales como: tasa de infección, duración de cirugía, estancia en UCI, comorbilidades, estado vital y supervivencia.
   - **Usuarios**: jefes de departamento, médicos tratantes e investigadores.
   - **Objetivo**: apoyar la toma de decisiones estratégicas y el seguimiento clínico.
+  - **Link**: https://app.powerbi.com/links/2LfQ-6HclV?ctid=fabd047c-ff48-492a-8bbb-8f98b9fb9cca&pbi_source=linkShare
 
 ### **Conclusiones e Insights Iniciales**
 
